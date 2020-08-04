@@ -18,6 +18,7 @@ public class MainTests {
         System.out.println(driver.getTitle());
         Assert.assertEquals(driver.getTitle(),"Google");
         driver.close();
+
     }
 
 }
